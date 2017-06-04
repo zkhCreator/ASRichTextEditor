@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		0EE6337A03B76A15365DDD26 /* Pods_ASRichTextEditor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASRichTextEditor_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FFE9B3078A48255FADC82B0 /* Pods-ASRichTextEditor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASRichTextEditor_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASRichTextEditor_Tests/Pods-ASRichTextEditor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		2E10513F81E67DF6741F40A2 /* ASRichTextEditor.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ASRichTextEditor.podspec; path = ../ASRichTextEditor.podspec; sourceTree = "<group>"; };
+		2E10513F81E67DF6741F40A2 /* ASRichTextEditor.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ASRichTextEditor.podspec; path = ../ASRichTextEditor.podspec; sourceTree = "<group>"; };
 		550879B0C497FB0260F3ED4C /* Pods-ASRichTextEditor_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASRichTextEditor_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASRichTextEditor_Example/Pods-ASRichTextEditor_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* ASRichTextEditor_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASRichTextEditor_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,8 +42,8 @@
 		607FACE51AFB9204008FA782 /* ASRichTextEditor_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASRichTextEditor_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		72A1AC027F206BCFDA5FBA5E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		74ED899208D36285A0997909 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		72A1AC027F206BCFDA5FBA5E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		74ED899208D36285A0997909 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		7D10657BDF7216722B5B7CAC /* Pods-ASRichTextEditor_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASRichTextEditor_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASRichTextEditor_Tests/Pods-ASRichTextEditor_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		860779A55FA69B120D4553EC /* Pods-ASRichTextEditor_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASRichTextEditor_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASRichTextEditor_Example/Pods-ASRichTextEditor_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F7BF6701A9C057E9A3DE8053 /* Pods_ASRichTextEditor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASRichTextEditor_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -497,6 +497,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ASRichTextEditor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -511,6 +512,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ASRichTextEditor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
