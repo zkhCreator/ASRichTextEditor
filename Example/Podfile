@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ASRichTextEditor_Example' do
+  pod 'ASRichTextEditor', :path => '../'
+
+  target 'ASRichTextEditor_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
