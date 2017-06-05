@@ -32,6 +32,10 @@ a simple richtext editor for ios, basic on wkwebkit
 
   s.source_files = 'ASRichTextEditor/Classes/**/*'
 
+  s.resource_bundles = {
+    'ASRichTextEditor' => ['ASRichTextEditor/Assets/*']
+  }
+
   # s.resource_bundles = {
   #   'ASRichTextEditor' => ['ASRichTextEditor/Assets/*.png']
   # }
